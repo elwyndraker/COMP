@@ -1,0 +1,9 @@
+"hello world"
+"tab\there and newline\n"
+"bad escape \q inside"
+"unterminated string
+'a'
+'\n'
+'\q'
+'abc'
+'x

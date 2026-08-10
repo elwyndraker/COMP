@@ -1,0 +1,6 @@
+x = 5;
+y = x + 3;
+z = (x + y) * 2 - 4;
+print z;
+w = -x + z / 2;
+print w + q;
