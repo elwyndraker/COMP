@@ -1,9 +1,17 @@
-int main() {
-    float rate = 3.14;
-    int count = 10;
-    if (count >= 5 && rate != 0) {
-        count++;
-        rate = rate * 2.0;
-    }
-    return 0;
-}
+int value = 100;
+if (value == 100)
+
+
+sample output = 
+
+KEYWORD: int
+IDENTIFIER: value
+OPERATOR: =
+NUMBER: 100
+PUNCTUATION: ;
+KEYWORD: if
+PUNCTUATION: (
+IDENTIFIER: value
+OPERATOR: ==
+NUMBER: 100
+PUNCTUATION: )
