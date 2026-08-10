@@ -1,9 +1,6 @@
-// this is a line comment
-int    main( void )
-{
-    /* a block
-       comment spanning lines */
-    int   x =   10;
-    printf( "hello   world\n" );   // trailing comment
-    return    0;
+int main() {
+    // Single line comment
+    int x = 10; /* Multi-line 
+    comment */
+    return   0;
 }
