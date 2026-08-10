@@ -4,3 +4,5 @@ int main() {
     comment */
     return   0;
 }
+
+sample output = int main() { int x = 10; return 0; }
