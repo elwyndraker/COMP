@@ -10,5 +10,5 @@
 [ \t\r\n]+ {printf (" ");}
 .   {printf(" %s ", yytext);}
 %%
-int main() {yylext(); return 0;:}
-int yywrap() {return 1;:}
+int main() {yylext(); return 0;}
+int yywrap() {return 1;}
