@@ -1,9 +1,18 @@
-"hello world"
-"tab\there and newline\n"
-"bad escape \q inside"
-"unterminated string
+"Hello, World!"
 'a'
-'\n'
-'\q'
-'abc'
-'x
+"Escaped \"quote\""
+"Unterminated string
+
+
+sample output ----
+
+
+E:\Programing\FLEX_AND_BISON_CODES> flex p6.l
+E:\Programing\FLEX_AND_BISON_CODES> gcc lex.yy.c -o p6.exe
+E:\Programing\FLEX_AND_BISON_CODES> p6.exe < p6_input.txt
+
+
+STRING LITERAL: "Hello, World!"
+CHARACTER LITERAL: 'a'
+STRING LITERAL: "Escaped \"quote\""
+LEXICAL ERROR: Unterminated string "Unterminated string
