@@ -1,9 +1,15 @@
-a + b
-x == y
-i++
-p <= q && r >= s
-n <<= 2
-a +* b
-x =+ y
-z === w
-c -> d
++
+++
++=
+=+
+->
+
+
+sample putput -------
+
+
+VALID OPERATOR: +
+VALID OPERATOR: ++
+VALID OPERATOR: +=
+MALFORMED OPERATOR ERROR: =+
+VALID OPERATOR: ->
