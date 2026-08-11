@@ -1,12 +1,19 @@
-
 a
 aaa
-b
 ab
 abb
-abab
-aab
-aabb
-ba
-abba
-abc
+ababab
+bb
+
+
+
+sample outptut-----
+
+
+Matches Pattern 1 (a*): a
+Matches Pattern 1 (a*): aaa
+Matches Pattern 2 (a*b+): ab
+Matches Pattern 4 (abb): abb
+Matches Pattern 3 ((ab)*): ababab
+Unrecognized: b
+Unrecognized: b
